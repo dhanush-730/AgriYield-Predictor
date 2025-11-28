@@ -30,7 +30,7 @@ AgriYieldPredictor is a machine-learning–based application designed to predict
 ---
 
 ## 🗂️ Project Structure
-
+```
 AgriYieldPredictor/
 │
 ├── Analysis/
@@ -59,28 +59,33 @@ AgriYieldPredictor/
 └── (generated plots and graphs)
 
 
----
+```
 
 ## 🚀 Getting Started
 
 ### Install Requirements
 ```bash
 pip install -r requirements.txt
-
+```
 Run Backend Prediction Server
+```
 python Backend/start_server.py
+```
 
 Run Yield Prediction Manually
+```
 python Backend/YieldPrediction.py
+```
 
 Generate Time-Series Forecast Plot
+```
 python Scripts/basic_timeseries.py
-
+```
 
 Outputs will be saved in the Visuals/ directory.
 
 🛠️ Technologies Used
-
+```
 Python
 
 scikit-learn
@@ -94,3 +99,4 @@ Matplotlib
 Custom ML Pipelines
 
 Backend server (Python)
+```
